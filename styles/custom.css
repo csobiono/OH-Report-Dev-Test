@@ -1,0 +1,48 @@
+.sortorder:after {
+  content: '\25b2';
+}
+.sortorder.reverse:after {
+  content: '\25bc';
+}
+.full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
+  .input-group .form-control {
+	   height: 28px !important;
+  }
+  td.ng-binding, td myDate.ng-binding {
+	  
+	  font-size: 12px;
+	  text-align: left;
+  }
+  button.sort {
+	font-size: 12px;
+    border: none;
+    background: white;
+  }
+  button#exportCSV {
+	  background-color: #009ED6;
+	  color: #fff;
+	  font-weight: bold;
+  }
+  div.orderId {
+	  display: inline-block;
+	  border-radius: 4px;
+	  font-size: 10px;
+	  background-color: #009ED6;
+	  color: #fff;
+	  padding: 3px 2px;
+  }
+  #dateSelectorTo {
+	  color: #fff;
+	  margin: 0;
+		padding: 0;
+	 font-size: 20px;
+  }
